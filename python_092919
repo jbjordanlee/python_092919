@@ -1,0 +1,10 @@
+class family:
+  place_to_live = 'Awesome'
+  food_to_eat = 'Yummy'
+  
+  def __init__(self, firstname, lastname):
+    self.firstname = firstname
+    self.lastname = lastname
+    
+f1 = family('Mike', 'Davidson')
+print(f1.firstname)
